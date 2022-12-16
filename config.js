@@ -5,10 +5,10 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Whaly",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://discord.com/api/oauth2/authorize?client_id=1037317292163350609&permissions=8&scope=applications.commands%20bot",
   //BotInvite Link
   Features: [
     {
@@ -24,24 +24,24 @@ const config = {
       logo: <SiProbot className="h-10 w-10" />,
     },
     {
-      name: "Automation",
+      name: "A lot of commands",
       description:
-        "Automation describes a wide range of technologies that reduce  human intervention in processes.",
+        "There are a lot of commands in Whaly and we add some every single day",
       logo: <TbMessage2Code className="h-10 w-10" />,
     },
     {
-      name: "Welcomer",
+      name: "Permission Checks",
       description:
-        "Welcomer is the person who greet the new person in an unique and great way",
+        "Check's a users permission level for administrator commands",
       logo: <CgCrown className="h-10 w-10" />,
     },
     // You can added more features if need add
   ],
   //Bot Features
-  serverCount: 300, //-  - Your
+  serverCount: 25, //-  - Your
   memberCount: 700, //--   - Bot
-  executedCommand: 27000, //--  - Stats
-  availableCommand: 400, //---   - Here
+  executedCommand: 397, //--  - Stats
+  availableCommand: 20, //---   - Here
   //Do not change if you don't know about them
   faceBookLogo: (
     <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
@@ -54,12 +54,12 @@ const config = {
   ),
   //----------------------------------------------------------------
   // Your social handle links
-  githubLink: "https://github.com/mohitmimani",
-  twitterLink: "https://twitter.com",
+  githubLink: "",
+  twitterLink: "https://twitter.com/silvxrstudios",
   mediumLink: "https://medium.com/",
-  facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
-  youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
+  facebookLink: "",
+  discordLink: "https://discord.gg/zqKdVNJQGk",
+  youtubeLink: "https://www.youtube.com",
 };
 
 export default config;
