@@ -95,7 +95,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className="pb-8 py-4 md:pl-16 border-t flex justify-between">
-                  <span>&copy; Code with Mohit</span>
+                  <span>&copy; Made by Silvxr#4284</span>
                   <span>All right reserved</span>
                 </div>
               </div>
